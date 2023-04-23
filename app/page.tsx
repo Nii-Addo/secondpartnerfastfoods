@@ -2,7 +2,7 @@ import Reviews from "./components/Testimonial";
 import ProductOfferings from "./components/ProductOfferings";
 import LandingText from "./components/LandingText";
 import Actions from "./components/Actions";
-import bg from "../public/menu/Prashad.jpeg";
+import bg from "../public/temp/Prashad.jpeg";
 import "./home.css";
 
 export default function Home() {

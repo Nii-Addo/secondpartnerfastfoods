@@ -21,8 +21,9 @@ const Reviews = () => {
               <div className={`${style.face} ${style.back}`}>
                 <span className="fas fa-quote-left"></span>
                 <div className={style.testimonial}>
-                  "Charlie the food @see_kkb_cee dey do dey parp pass more food
-                  for East Legon here,whaaaaat. Its worth every single hype. "
+                  &quot;"Charlie the food @see_kkb_cee dey do dey parp pass more
+                  food for East Legon here,whaaaaat. Its worth every single
+                  hype. &quot;"
                 </div>
                 <span className="fas fa-quote-right"></span>
               </div>
@@ -42,9 +43,9 @@ const Reviews = () => {
               <div className={`${style.face} ${style.back}`}>
                 <span className="fas fa-quote-left"></span>
                 <div className={style.testimonial}>
-                  " Really good, you have saved our business! I made bacck the
-                  purchase price in just 48 hours! man, this thing is getting
-                  better and better as I learn more about it. "
+                  &quot;" Really good, you have saved our business! I made bacck
+                  the purchase price in just 48 hours! man, this thing is
+                  getting better and better as I learn more about it. &quot;"
                 </div>
                 <span className="fas fa-quote-right"></span>
               </div>
@@ -66,9 +67,9 @@ const Reviews = () => {
               <div className={`${style.face} ${style.back}`}>
                 <span className="fas fa-quote-left"></span>
                 <div className={style.testimonial}>
-                  " Account keeper is the most valuable business research we
-                  have EVER purchased. Without electrician, we would ahave gone
-                  bankrupt by now. "
+                  &quot;" Account keeper is the most valuable business research
+                  we have EVER purchased. Without electrician, we would ahave
+                  gone bankrupt by now. &quot;"
                 </div>
                 <span className="fas fa-quote-right"></span>
               </div>
