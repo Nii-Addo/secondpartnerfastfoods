@@ -45,21 +45,21 @@ const About = () => {
                 At SecondPartner Fast Foods, our fried rice is more than just a
                 dish - it&apos;s an experience. Our skilled chefs have perfected
                 the art of creating a harmonious balance of textures and
-                tastes.What sets our fried rice apart from the rest? It's all in
-                the details. Our fried rice is a delectable blend of perfectly
-                cooked rice, savory vegetables, and a good choice of succulent
-                meats. From the careful selection of the freshest ingredients to
-                the precise timing and techniques used in the cooking process,
-                we go above and beyond to ensure that every plate of fried rice
-                is a masterpiece. We take pride in using only the freshest
-                ingredients, sourced from local farms and suppliers, to ensure
-                that every bite is bursting with flavor. The fragrant aroma of
-                our spices and herbs will transport you straight to the streets
-                of East Legon, where the bustling food scene is always alive
-                with the sizzle and stir of woks. So Whether you're looking for
-                a quick lunch on the go or a hearty dinner with friends, our
-                fried rice is sure to satisfy your cravings and leave you
-                feeling nourished and satisfied.
+                tastes.What sets our fried rice apart from the rest? It&apos;s
+                all in the details. Our fried rice is a delectable blend of
+                perfectly cooked rice, savory vegetables, and a good choice of
+                succulent meats. From the careful selection of the freshest
+                ingredients to the precise timing and techniques used in the
+                cooking process, we go above and beyond to ensure that every
+                plate of fried rice is a masterpiece. We take pride in using
+                only the freshest ingredients, sourced from local farms and
+                suppliers, to ensure that every bite is bursting with flavor.
+                The fragrant aroma of our spices and herbs will transport you
+                straight to the streets of East Legon, where the bustling food
+                scene is always alive with the sizzle and stir of woks. So
+                Whether you&apos;re looking for a quick lunch on the go or a
+                hearty dinner with friends, our fried rice is sure to satisfy
+                your cravings and leave you feeling nourished and satisfied.
               </p>
             </div>
           </div>
