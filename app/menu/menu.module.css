@@ -1,0 +1,111 @@
+.menu {
+  margin: 0 auto;
+  margin-top: calc(max-height-100px);
+}
+.mimage {
+  height: 550px;
+}
+
+.mimage h2 {
+  /* color: #f80606; */
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 4px;
+  /* color:#f39!important; */
+  color: #010101;
+}
+
+.menucard {
+  transform: translate(0%, 0%);
+  width: 400px;
+  height: fit-content;
+  max-height: 440px;
+  background: #fff;
+}
+
+.menucard .menuimage {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center !important;
+  border: 2px solid #000;
+  background-color: rgba(16, 1, 1, 0.94);
+  color: #fff;
+}
+
+.menucard .menuimage img {
+  width: 100%;
+  max-height: 300px;
+  transition: 0.5s;
+
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  vertical-align: middle;
+}
+
+.menucard:hover .menuimage img {
+  opacity: 0.5;
+  transform: translateX(30%);
+}
+
+.menucard .menudetails {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  background: #ffc107;
+  transition: 0.5s;
+  transform-origin: left;
+  transform: perspective(2000px) rotateY(-90deg);
+}
+
+.menucard:hover .menudetails {
+  transform: perspective(2000px) rotateY(0deg);
+}
+
+.menucard .menudetails .menucenter {
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menucard .menudetails .menucenter h1 {
+  margin: 0;
+  padding: 0;
+  color: #ff3636;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.menucard .menudetails .menucenter p {
+  padding: 0;
+  color: #505050;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+  .menudetails {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%; /*100%*/
+    height: 100%;
+    /* background: #ffc107; */
+    background: #000000;
+    transition: 0.5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+  }
+}
