@@ -1,6 +1,6 @@
 import Image from "next/image";
-import utensils from "../../public/utensils.jpg";
-import chef from "../../public/review/chef.jpg";
+import utensils from "../../public/pages/utensils.jpg";
+import chef from "../../public/pages/chef.jpg";
 import style from "./about.module.css";
 
 const About = () => {
@@ -42,8 +42,8 @@ const About = () => {
             </div>
             <div className="p-2 pt-4">
               <p className={`${style.text}`}>
-                At SecondPartner Fast Foods, our fried rice is more than just
-                a dish - it's an experience. Our skilled chefs have perfected
+                At SecondPartner Fast Foods, our fried rice is more than just a
+                dish - it&apos;s an experience. Our skilled chefs have perfected
                 the art of creating a harmonious balance of textures and
                 tastes.What sets our fried rice apart from the rest? It's all in
                 the details. Our fried rice is a delectable blend of perfectly
@@ -56,10 +56,10 @@ const About = () => {
                 that every bite is bursting with flavor. The fragrant aroma of
                 our spices and herbs will transport you straight to the streets
                 of East Legon, where the bustling food scene is always alive
-                with the sizzle and stir of woks.
-                So Whether you're looking for a quick lunch on the go or a hearty
-                dinner with friends, our fried rice is sure to satisfy your
-                cravings and leave you feeling nourished and satisfied.
+                with the sizzle and stir of woks. So Whether you're looking for
+                a quick lunch on the go or a hearty dinner with friends, our
+                fried rice is sure to satisfy your cravings and leave you
+                feeling nourished and satisfied.
               </p>
             </div>
           </div>

@@ -11,9 +11,9 @@ const LandingText = () => {
           ingredients and served with a side of unbeatable hospitality.
         </p>
         <p className="text-lg sm:text-xl md:text-2xl text-gray-700">
-          Whether you're in the mood for a good meal or want to suprise that
-          special person, we've got you covered. Come experience the taste of
-          excellence today!
+          Whether you&apos;re in the mood for a good meal or want to suprise
+          that special person, we&apos;ve got you covered. Come experience the
+          taste of excellence today!
         </p>
       </div>
     </div>

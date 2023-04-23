@@ -1,9 +1,9 @@
 import OrderActions from "../components/OrderActions";
 import Card from "../components/ContactCard";
-import address from "../../public/address-location-icon.svg";
-import time from "../../public/lunch-time-icon.svg";
-import community from "../../public/online-community-icon.svg";
-import phone from "../../public/verify-phone-number-black-icon.svg";
+import address from "../../public/icons/address-location-icon.svg";
+import time from "../../public/icons/lunch-time-icon.svg";
+import community from "../../public/icons/online-community-icon.svg";
+import phone from "../../public/icons/verify-phone-number-black-icon.svg";
 import style from "./contact.module.css";
 
 const page = () => {
@@ -45,9 +45,9 @@ const page = () => {
           Let us handle your food needs
         </h2>
         <p className={`${style.text} mb-8 `}>
-          We'd love to hear from you. Send a message to the whatsapp number
-          provided on the phone card above to give us any suggesstion to help us
-          get better.
+          We&apos;'d love to hear from you. Send a message to the whatsapp
+          number provided on the phone card above to give us any suggesstion to
+          help us get better.
           <br />
           If you would want to invest in us to see us grow then please dont
           hesitate to email us using the email address on the address card.

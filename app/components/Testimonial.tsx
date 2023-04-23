@@ -1,7 +1,7 @@
 import Image from "next/image";
-import review1 from "../../public/review/review1.jpg";
-import lart from "../../public/review/lart.jpg";
-import beno from "../../public/review/beno.jpg";
+import review1 from "../../public/temp/review1.jpg";
+import lart from "../../public/pages/lart.jpg";
+import beno from "../../public/pages/beno.jpg";
 
 const Testinonial = () => {
   return (
@@ -66,9 +66,10 @@ const Testinonial = () => {
               Everything on point just as wanted
             </h3>
             <p className="my-4">
-              Food was great!!! I'm very hard to impress with food but this is
-              good. From customer service, packaging, message and the food
-              itself. Worth every penny. Everything on point just as wanted.
+              Food was great!!! I&apos;'m very hard to impress with food but
+              this is good. From customer service, packaging, message and the
+              food itself. Worth every penny. Everything on point just as
+              wanted.
             </p>
           </blockquote>
           <figcaption className="flex items-center justify-center space-x-3">
