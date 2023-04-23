@@ -24,6 +24,7 @@ const Testinonial = () => {
               className="rounded-full w-9 h-9"
               src={lart}
               alt="profile picture"
+              priority
             />
             <div className="space-y-0.5 font-medium dark:text-white text-left">
               <div>Lartman</div>
@@ -51,6 +52,7 @@ const Testinonial = () => {
               className="rounded-full w-9 h-9"
               src={beno}
               alt="profile picture"
+              priority
             />
             <div className="space-y-0.5 font-medium dark:text-white text-left">
               <div>Beno Sarkcess</div>
@@ -66,7 +68,7 @@ const Testinonial = () => {
               Everything on point just as wanted
             </h3>
             <p className="my-4">
-              Food was great!!! I&apos;'m very hard to impress with food but
+              Food was great!!! I&apos;m very hard to impress with food but
               this is good. From customer service, packaging, message and the
               food itself. Worth every penny. Everything on point just as
               wanted.
@@ -79,6 +81,7 @@ const Testinonial = () => {
               className="rounded-full w-9 h-9"
               src={review1}
               alt="profile picture"
+              priority
             />
             <div className="space-y-0.5 font-medium dark:text-white text-left">
               <div>Some customer</div>

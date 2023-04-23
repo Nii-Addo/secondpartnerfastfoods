@@ -45,9 +45,9 @@ const page = () => {
           Let us handle your food needs
         </h2>
         <p className={`${style.text} mb-8 `}>
-          We&apos;'d love to hear from you. Send a message to the whatsapp
-          number provided on the phone card above to give us any suggesstion to
-          help us get better.
+          We&apos;d love to hear from you. Send a message to the whatsapp number
+          provided on the phone card above to give us any suggesstion to help us
+          get better.
           <br />
           If you would want to invest in us to see us grow then please dont
           hesitate to email us using the email address on the address card.
