@@ -9,14 +9,14 @@
   --text-black: #171c24;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-} */
+}
 
 * {
   margin: 0;
@@ -36,7 +36,6 @@ body {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeSpeed;
-  font-family: "Poppins", Sans-serif;
   min-height: 100vh;
 }
 

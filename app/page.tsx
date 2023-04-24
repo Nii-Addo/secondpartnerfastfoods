@@ -3,7 +3,7 @@ import ProductOfferings from "./components/ProductOfferings";
 import LandingText from "./components/LandingText";
 import Actions from "./components/Actions";
 import bg from "../public/temp/Prashad.jpeg";
-import "./home.css";
+import "./css/home.css";
 
 export default function Home() {
   return (
