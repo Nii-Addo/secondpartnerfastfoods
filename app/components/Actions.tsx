@@ -1,5 +1,5 @@
 import Link from "next/link";
-import "../home.css";
+import "../css/home.css";
 
 const Actions = () => {
   return (
