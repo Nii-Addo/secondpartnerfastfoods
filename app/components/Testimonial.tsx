@@ -7,9 +7,9 @@ const Testinonial = () => {
   return (
     <div>
       <div className="grid mb-8 shadow-sm  md:mb-12 md:grid-cols-3 gap-8 ">
-        <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
-          <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+        <figure className="flex flex-col items-center justify-center p-8 text-center border-b border-gray-200 bg-gray-800 border-gray-700">
+          <blockquote className="max-w-2xl mx-auto mb-4 lg:mb-8 text-gray-400">
+            <h3 className="text-lg font-semibold text-white">
               Its worth every single hype
             </h3>
             <p className="my-4">
@@ -26,17 +26,15 @@ const Testinonial = () => {
               alt="profile picture"
               priority
             />
-            <div className="space-y-0.5 font-medium dark:text-white text-left">
+            <div className="space-y-0.5 font-medium text-white text-left">
               <div>Lartman</div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">
-                @Gabbylart
-              </div>
+              <div className="text-sm  text-gray-400">@Gabbylart</div>
             </div>
           </figcaption>
         </figure>
-        <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
-          <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+        <figure className="flex flex-col items-center justify-center p-8 text-center border-b border-gray-200 bg-gray-800 border-gray-700">
+          <blockquote className="max-w-2xl mx-auto mb-4  lg:mb-8 text-gray-400">
+            <h3 className="text-lg font-semibold text-gray-900 text-white">
               Food so delicious
             </h3>
             <p className="my-4">
@@ -54,24 +52,21 @@ const Testinonial = () => {
               alt="profile picture"
               priority
             />
-            <div className="space-y-0.5 font-medium dark:text-white text-left">
+            <div className="space-y-0.5 font-medium text-white text-left">
               <div>Beno Sarkcess</div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">
-                @BenopaOnyx1
-              </div>
+              <div className="text-sm  text-gray-400">@BenopaOnyx1</div>
             </div>
           </figcaption>
         </figure>
-        <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
-          <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+        <figure className="flex flex-col items-center justify-center p-8 text-center border-b border-gray-200 bg-gray-800 border-gray-700">
+          <blockquote className="max-w-2xl mx-auto mb-4  lg:mb-8 text-gray-400">
+            <h3 className="text-lg font-semibold text-gray-900 text-white">
               Everything on point just as wanted
             </h3>
             <p className="my-4">
-              Food was great!!! I&apos;m very hard to impress with food but
-              this is good. From customer service, packaging, message and the
-              food itself. Worth every penny. Everything on point just as
-              wanted.
+              Food was great!!! I&apos;m very hard to impress with food but this
+              is good. From customer service, packaging, message and the food
+              itself. Worth every penny. Everything on point just as wanted.
             </p>
           </blockquote>
           <figcaption className="flex items-center justify-center space-x-3">
@@ -83,11 +78,9 @@ const Testinonial = () => {
               alt="profile picture"
               priority
             />
-            <div className="space-y-0.5 font-medium dark:text-white text-left">
+            <div className="space-y-0.5 font-medium text-white text-left">
               <div>Some customer</div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">
-                from somewhere
-              </div>
+              <div className="text-sm  text-gray-400">from somewhere</div>
             </div>
           </figcaption>
         </figure>
