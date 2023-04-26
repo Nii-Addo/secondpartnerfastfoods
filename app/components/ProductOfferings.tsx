@@ -3,11 +3,8 @@ import "../css/home.css";
 const ProductOfferings = () => {
   return (
     <>
-      <div className="mb-16 h-full">
-        <h3 className="text-4xl text-center font-bold text-gray-900">
-          What we offer you
-        </h3>
-        <div className="grid grid-flow-col p-4 gap-8">
+      <div className="h-full">
+        <div className="grid grid-cols-1 md:grid-cols-3 p-4 gap-8">
           <div>
             <div className="block h-96  max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 className="mb-8 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">

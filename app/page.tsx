@@ -27,7 +27,10 @@ export default function Home() {
           <div className="mb-16">
             <LandingText />
           </div>
-          <div className="offerings mb-32">
+          <div className="mb-32">
+            <h3 className="text-4xl ml-4 md:ml-0  md:text-center font-bold text-gray-900">
+              What we offer you
+            </h3>
             <ProductOfferings />
           </div>
           <div className="mb-32 px-4">
@@ -36,7 +39,7 @@ export default function Home() {
             </h2>
             <Reviews />
           </div>
-          <div className="actions flex flex-col">
+          <div className="actions flex flex-col px-8 md:px-0">
             <h3 className="text-4xl text-center font-bold text-gray-900 mb-8">
               Get your next meal delivered
             </h3>

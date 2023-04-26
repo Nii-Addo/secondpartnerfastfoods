@@ -1,7 +1,7 @@
 const LandingText = () => {
   return (
     <div className=" py-10">
-      <div className="max-w-screen-lg mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-screen-lg px-4 sm:px-6 lg:px-16">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-800 mb-8">
           Get ready to feast your taste buds!
         </h1>
