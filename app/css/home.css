@@ -26,10 +26,6 @@
   margin-top: calc(100vh - 10px);
 }
 
-.offerings {
-  height: 80vh;
-}
-
 .actions {
   height: 80vh;
   display: flex;

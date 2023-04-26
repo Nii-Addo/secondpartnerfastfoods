@@ -66,10 +66,6 @@
   transition: all 0.3s ease;
 }
 
-.sec {
-  height: 45rem;
-}
-
 .text {
   color: #505050;
   font-weight: 300;
@@ -80,6 +76,9 @@
 @media screen and (max-width: 767px) {
   .cardtext {
     opacity: 1;
+  }
+  .card {
+    height: 400px;
   }
 }
 

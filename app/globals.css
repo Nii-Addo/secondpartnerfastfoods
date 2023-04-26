@@ -23,20 +23,54 @@
   padding: 0;
 }
 
-::after,
-::before {
+/*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+*/
+
+*,
+::before,
+::after {
   box-sizing: border-box;
+}
+
+::before,
+::after {
+  --tw-content: "";
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+*/
+
+html {
+  line-height: 1.6875rem;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   background: #eeeeee;
   font-size: 1.125rem;
-  line-height: 1.6875rem;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeSpeed;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .nav {
@@ -56,4 +90,13 @@ body {
   .nav {
     font-size: 15px;
   }
+}
+
+.showMenuNav {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
 }

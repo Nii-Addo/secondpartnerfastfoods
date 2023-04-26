@@ -12,7 +12,7 @@ const About = () => {
         about us
       </h2>
       <div className="flex flex-col">
-        <div className="grid grid-cols-2 place-items-stetch w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 place-items-stetch w-full">
           <div className="p-2">
             <p className={`${style.text}`}>
               SecondPartner Fast Foods is an online fast food company focused on
@@ -20,7 +20,7 @@ const About = () => {
               are always opened ready to serve you that meal you have being.....
             </p>
           </div>
-          <div className="p-8">
+          <div className="md:p-8 p-2">
             <Image
               src={chef}
               alt="an image of cooking utensils"
@@ -31,8 +31,8 @@ const About = () => {
         </div>
         <div className="mt-32">
           <h2 className={`${style.head} capitalize text-5xl`}>Our Dishes</h2>
-          <div className="grid grid-cols-2 place-items-stetch w-full">
-            <div className="p-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 place-items-stetch w-full">
+            <div className="md:p-8 p-2">
               <Image
                 src={utensils}
                 alt="an image of fried chiken"
