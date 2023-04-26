@@ -39,7 +39,7 @@ export default function Home() {
             </h2>
             <Reviews />
           </div>
-          <div className="actions flex flex-col px-8 md:px-0">
+          <div className="actions flex flex-col px-4 md:px-0">
             <h3 className="text-4xl text-center font-bold text-gray-900 mb-8">
               Get your next meal delivered
             </h3>
