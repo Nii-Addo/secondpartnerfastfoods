@@ -3,7 +3,7 @@ import "../css/home.css";
 
 const Actions = () => {
   return (
-    <div className="actions-container">
+    <div className="actions-container flex justify-center align-center h-full w-full ">
       <div className="actions-card">
         <Link href="/menu">
           <h3 className="title font-bold">Check out our menu</h3>

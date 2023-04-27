@@ -26,21 +26,10 @@
   margin-top: calc(100vh - 10px);
 }
 
-.actions {
-  height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .actions-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
   top: 60px;
   left: calc(50% - 300px);
+  overflow: hidden;
 }
 
 .actions-card {
@@ -137,7 +126,7 @@ svg {
 }
 
 @media screen and (max-width: 639px) {
-.emptybar {
-  width: 50%;
-}
+  .emptybar {
+    width: 50%;
+  }
 }
